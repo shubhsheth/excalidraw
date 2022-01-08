@@ -184,7 +184,8 @@
     "freedraw": "Draw",
     "text": "Text",
     "library": "Library",
-    "lock": "Keep selected tool active after drawing"
+    "lock": "Keep selected tool active after drawing",
+    "record": "Record"
   },
   "headings": {
     "canvasActions": "Canvas actions",

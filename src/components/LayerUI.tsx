@@ -31,6 +31,7 @@ import { UserList } from "./UserList";
 import Library from "../data/library";
 import { JSONExportDialog } from "./JSONExportDialog";
 import { LibraryButton } from "./LibraryButton";
+import { RecordingButton } from "./RecordingButton";
 import { isImageFileHandle } from "../data/blob";
 import { LibraryMenu } from "./LibraryMenu";
 
@@ -345,6 +346,10 @@ const LayerUI = ({
                       </Stack.Row>
                     </Island>
                     <LibraryButton
+                      appState={appState}
+                      setAppState={setAppState}
+                    />
+                    <RecordingButton
                       appState={appState}
                       setAppState={setAppState}
                     />

@@ -65,6 +65,7 @@ export type BinaryFiles = Record<ExcalidrawElement["id"], BinaryFileData>;
 
 export type AppState = {
   isLoading: boolean;
+  isRecording: boolean;
   errorMessage: string | null;
   draggingElement: NonDeletedExcalidrawElement | null;
   resizingElement: NonDeletedExcalidrawElement | null;
