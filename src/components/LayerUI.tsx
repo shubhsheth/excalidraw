@@ -352,6 +352,7 @@ const LayerUI = ({
                     <RecordingButton
                       appState={appState}
                       setAppState={setAppState}
+                      canvas={canvas}
                     />
                   </Stack.Row>
                   {libraryMenu}
